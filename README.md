@@ -16,14 +16,15 @@ CSV2Gは、CSVファイルのデータを解析し、グラフを作成するPyt
 2. 必要な依存関係をインストールします。
    ```bash
    pip install -r requirements.txt
-3. アプリケーションを実行します。
-   ```bash
-   python csv2g-nogui.py
-   ```
-   または   
+3. アプリケーションを実行します。  
    ```bash
    python csv2g-gui.py
    ```
+   または
+   ```bash
+   python csv2g-nogui.py
+   ```
+   (nogui版はdataフォルダにCSVを配置し、必要に応じてファイル名を指定する必要あり）
 4. GUIからCSVファイルを選択し、解析を実行します。
 
 ## 必要なライブラリ
